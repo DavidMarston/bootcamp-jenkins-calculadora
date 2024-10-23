@@ -19,4 +19,12 @@ class CaluladoraImplTest {
 		Assertions.assertEquals(3, resultado);
 	}
 
+	@Test
+	void test_debe_sumar_cuando_se_utiliza_menos() {
+		int resultado = calculadora.calcular(2, '-', 1);
+		Assertions.assertEquals(1, resultado);
+	}
+
+	
+
 }
