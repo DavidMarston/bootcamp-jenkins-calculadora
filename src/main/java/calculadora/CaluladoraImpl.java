@@ -6,22 +6,22 @@ public class CaluladoraImpl implements Calculadora {
 	public int calcular(int i1, char op, int i2) {
 		int res = 0;
 		switch(op){
-			case "+":
+			case '+':
 				res= i1+i2;
 				break;
-			case "-":
+			case '-':
 				res= i1-i2;
 				break;
-			case "x":
+			case 'x':
 				res= i1*i2;
 				break;
-			case "*":
+			case '*':
 				res= i1*i2;
 				break;
-			case "/":
+			case '/':
 				res= i1/i2;
 				break;
-			case "%":
+			case '%':
 				res= i1%i2;
 				break;
 		}
